@@ -3,7 +3,7 @@
         "id": "1",
         "name": "Box stuffed bear with balloons",
         "price": 25000,
-        "category": "Balloons",
+        "category": "balloons",
         "description": "This box includes an adorable teddy bear huddled in premium decorative papers, accompanied by three metallic balloons",
         "imageUrl": "/images/bear-with-balloons.jpg"
     },
@@ -11,7 +11,7 @@
         "id": "2",
         "name": "Bouquet of heart-shaped balloons",
         "price": 20000,
-        "category": "Balloons",
+        "category": "balloons",
         "description": "A spectacular bouquet of natural flowers composed of lilies, roses, and fresh foliage, accompanied by heart-shaped metallic balloons",
         "imageUrl": "/images/heart-balloons.jpg"
     },
@@ -19,7 +19,7 @@
         "id": "3",
         "name": "Bouquet of seasonal flowers with a balloon",
         "price": 25000,
-        "category": "Balloons",
+        "category": "balloons",
         "description": "The bouquet is composed of an elegant combination of roses and lilies in soft tones, enhanced with fresh foliage and a fine white presentation paper with a ribbon bow",
         "imageUrl": "/images/seasonal-flowers-with-balloon.jpg"
     },
@@ -27,7 +27,7 @@
         "id": "4",
         "name": "Bubble balloon and love teddy bear arrangement",
         "price": 20000,
-        "category": "Balloons",
+        "category": "balloons",
         "description": "This combo includes a bubble balloon with red and black confetti, held with satin ribbons like a hot air balloon, and at the base, an adorable brown teddy bear, all presented in a round box with a red bow",
         "imageUrl": "/images/bubble-balloon-and-teddy.jpg"
     },
@@ -35,7 +35,7 @@
         "id": "5",
         "name": "White heart box with imported red roses",
         "price": 15000,
-        "category": "Flowers",
+        "category": "flowers",
         "description": "Our “I Love You” Red Rose Box is made up of 12 roses imported from Ecuador, selected one by one for their beauty and freshness",
         "imageUrl": "/images/white-heart-box-with-roses.jpg"
     },
@@ -43,7 +43,7 @@
         "id": "6",
         "name": "Heart-shaped box with seasonal flowers and white roses",
         "price": 15000,
-        "category": "Flowers",
+        "category": "flowers",
         "description": "Our Assorted Heart Box combines the elegance of white lilies, the sweetness of pink roses imported from Ecuador, the charm of gerberas and the freshness of astromelias, creating a perfect harmony of color",
         "imageUrl": "/images/heart-shaped-box-with-seasonal-flowers.jpg"
     },
@@ -51,7 +51,7 @@
         "id": "7",
         "name": "Bouquet of yellow freesias with Korean paper",
         "price": 10000,
-        "category": "Flowers",
+        "category": "flowers",
         "description": "Bouquet of yellow freesias with Korean paper",
         "imageUrl": "/images/yellow-freesias.jpg"
     },
@@ -59,7 +59,7 @@
         "id": "8",
         "name": "Bouquet of alstroemeria flowers",
         "price": 10000,
-        "category": "Flowers",
+        "category": "flowers",
         "description": "Bouquet of astromelias in various colors",
         "imageUrl": "/images/alstroemeria-flowers.jpg"
     }

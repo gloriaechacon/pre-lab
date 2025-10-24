@@ -1,8 +1,10 @@
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
+import { useParams } from "react-router-dom"
 import { ItemList } from "../ItemList/ItemList";
 
 export const ItemListContainer = () => {
     const [products, setProducts] = useState([]);
+    const { categoryId } = useParams();
 
     useEffect(() => {
         fetch("/data/products.json")
@@ -13,16 +15,27 @@ export const ItemListContainer = () => {
                 return response.json();
             })
             .then((data) => {
-                setProducts(data);
+                if (categoryId) {
+                    const filteredProducts = data.filter(product => product.category === categoryId);
+                    setProducts(filteredProducts);
+                } else {
+                    setProducts(data);
+                }
             })
             .catch((error) => {
                 console.log(error);
             });
-    }, [])
+    }, [categoryId])
+
+    const getPageTitle = () => {
+        if (categoryId === 'flowers') return 'Flowers';
+        if (categoryId === 'balloons') return 'Balloons';
+        return 'Welcome';
+    }
 
     return (
-        <section>
-            <h1>Welcome</h1>
+        <section className="item-list-container">
+            <h1>{getPageTitle()}</h1>
             <ItemList list={products} />
         </section>
     )
